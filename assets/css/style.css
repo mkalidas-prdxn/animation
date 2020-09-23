@@ -332,3 +332,148 @@ sub { bottom: -.25em; }
   background-color: blueviolet;
   animation: text5 0.5s 26s ease-out both;
 }
+
+/* 4.2 Animation keyframes
+========================================================================== */
+@keyframes table{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes plate{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(250px,0px);}  
+}
+
+@keyframes plate2{
+  100% {transform: translate(-250px,0px);}   
+}
+
+@keyframes boring{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(280px,0px);}  
+}
+
+@keyframes boring2{
+  100% {transform: translate(-250px,0px);}  
+}
+
+@keyframes sad{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(-250px,0px);}  
+}
+
+@keyframes sad2{
+  100% {transform: translate(250px,0px);}  
+}
+
+@keyframes sandwich3{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(300px,0px);}  
+}
+
+@keyframes sandwich33{
+  100% {transform: translate(300px,-30px);}  
+}
+
+@keyframes sandwich333{
+  100% {transform: translate(300px,-5px);}  
+}
+
+@keyframes sandwich3333{
+  100% {transform: translate(-300px,-5px);}   
+}
+
+@keyframes knife{
+  0% {opacity: 0;  transform: rotate(-60deg); }
+  2% {opacity: 1;  transform:rotate(-60deg) translateY(0px);}
+  90% {opacity: 1;transform:rotate(-60deg) translateY(20px);}
+  100%{opacity: 0;transform:rotate(-60deg) translateY(30px);}  
+}
+
+@keyframes mayo{
+  0% {opacity: 0;}
+  100% {opacity: 1;}  
+}
+
+@keyframes mayo1{
+  100% {opacity: 0;}
+}
+
+@keyframes sandwich2{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(300px,0px);}  
+}
+
+@keyframes sandwich22{
+  100% {transform: translate(-300px,0px);} 
+}
+
+@keyframes sandwich1{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(260px,0px);}  
+}
+
+@keyframes sandwich11{
+  100% {transform: translate(-260px,0px);} 
+}
+
+@keyframes text2{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(350px,0px);}
+}
+
+@keyframes text22{
+  100% {transform: translate(-250px,0px);}
+}
+
+@keyframes happy{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(-249px,0px);}
+}
+
+@keyframes happy2{
+  100% {transform: translate(250px,0px);}
+}
+
+@keyframes text3{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(410px,0px);}
+}
+
+@keyframes text33{
+  100% {transform: translate(-250px,0px);}
+}
+
+@keyframes chef{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(-249px,0px);}
+}
+
+@keyframes chef1{
+  100% {transform: translate(250px,0px);}
+}
+
+@keyframes hat{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(355px,50px);}
+}
+
+@keyframes hat1{
+  100% {transform: translate(355px,120px);}
+}
+
+@keyframes text4{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(410px,0px);}
+}
+
+@keyframes vegmayo{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(-340px,0px);}
+}
+
+@keyframes text5{
+  0% {transform: translate(0px,0px);}
+  100% {transform: translate(450px,100px);}
+}
